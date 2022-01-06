@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ======================== LINE ICONS ======================== -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+
+    <!-- ======================== SWIPER CSS ======================== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <!-- ======================== CSS ======================== -->
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>Iecho Portfolio</title>
+</head>
+<body>
+    <!-- ======================== HEADER ======================== -->
+    <header class="header" id="header">
+        <!--NAV-->
+        <nav class="nav container padd-15">
+            <!--NAV LOGO-->
+            <a href="#" class="nav-logo">
+                <h2>IECHO</h2>
+            </a>
+            <!--NAV MENU-->
+            <div class="nav-menu" id="nav-menu">
+                <!--NAV LIST-->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#beranda" class="nav-link active-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tentang" class="nav-link">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portofolio" class="nav-link">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#kontak" class="nav-link">Kontak</a>
+                    </li>
+                </ul>
+                <!--NAV CLOSE-->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close"></i>
+                </div>
+            </div>
+            <!--NAV BUTTON-->
+            <div class="nav-btns">
+                <!--THEME BTNS-->
+                <div class="change-theme">
+                    <img src="src/img/mode/sun.png" id="icon">
+                </div>
+                <!--TOGGLE BTNS-->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ======================== MAIN ======================== -->
+    <main class="main-content">
+        <!-- ======================== BERANDA ======================== -->
+        <section class="beranda" id="beranda">
+            <div class="container">
+                <!--intro-->
+                <div class="intro">
+                    <!--avatar-->
+                    <img src="src/img/avatar/avatar-1.png" alt="Aldo">
+                    <!--info-->
+                    <h1>Ericho Aldo Firano</h1>
+                    <span>I'm a <span class="info-text">nolep human, but i'm handsome</span></span>
+                    <!--social icons-->
+                    <ul class="social-icons">
+                        <li><a href="https://www.instagram.com/riecho14/"target="_blank"><i class="lni lni-instagram-original"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=18668265202&text=%E2%9D%A4%EF%B8%8F"target="_blank"><i class="lni lni-whatsapp"></i></a></li>
+                        <li><a href="https://github.com/riecho14"target="_blank"><i class="lni lni-github-original"></i></a></li>
+                    </ul>
+                    <!--button-->
+                    <div>
+                        <a href="https://www.instagram.com/riecho14/"target="_blank" class="btn btn-default">Follow</a>
+                    </div>
+                    <!--scroll down-->
+                    <div class="scroll-down">
+                        <a href="#" class="mouse-wrapper">
+                            <span>Scroll Down</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================== TENTANG ======================== -->
+        <section class="about section" id="tentang">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Tentang Saya</h2>
+                <div class="row">
+                    <div class="about-img padd-15">
+                        <!--avatar-->
+                        <img src="src/img/avatar/avatar-2.png" alt="">
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <!-- tentang text -->
+                                    <p>Namaku Ericho Aldo Firano, kamu bisa panggil aku <s>Sayang</s> Aldo.
+                                    Aku merupakan salah satu mahasiswa di Institut Teknologi Sumatera jurusan Teknik Informatika.
+                                    Dewasa ini menyadarkanku bahwa cita-cita bukan tentang seberapa tinggi, tapi seberapa bebas.</p>
+                                    <div>
+                                        <a href="#" class="btn btn-default"><s>Download CV</s></a>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <!--skill item-->
+                                        <div class="skill-item">
+                                            <h4>Bacod</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 100%; background: rgb(21, 240, 134);"></div>
+                                                <div class="skill-percent">100%</div>
+                                            </div>
+                                        </div>
+                                        <!--skill item-->
+                                        <div class="skill-item">
+                                            <h4>Nolep</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 65%; background: rgb(255,209,92);"></div>
+                                                <div class="skill-percent">65%</div>
+                                            </div>
+                                        </div>
+                                        <!--skill item-->
+                                        <div class="skill-item">
+                                            <h4>Skills</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 5%; background: rgb(255,76,96);"></div>
+                                                <div class="skill-percent">5%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================== TENTANG PARTNER ======================== -->
+        <section class="section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Partner</h2>
+                <!-- partner wrapper -->
+                <div class="swiper partner-wrapper">
+                    <div class="swiper-wrapper">
+                        <!-- partner item -->
+                        <div class="partner-item swiper-slide">
+                            <div class="thumb">
+                                <img src="src/img/avatar/avatar-3.png" alt="">
+                            </div>
+                            <h3>Mila Oktaviani</h3>
+                            <span class="subtitle">Babu</span>
+                            <div class="comment">Enjoy with babu 🐒</div>
+                        </div>
+                        <!-- partner item -->
+                        <div class="partner-item swiper-slide">
+                            <div class="thumb">
+                                <img src="src/img/avatar/avatar-4.png" alt="">
+                            </div>
+                            <h3>Iecho Artwork</h3>
+                            <span class="subtitle">My Artwork</span>
+                            <div class="comment">Hasil karya dari kegabutan, lihat IG nya <a style="color: var(--color-primary);"href="https://www.instagram.com/iechoartwork/"target="_blank">disini</a> ya!</div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================== Portofolio ======================== -->
+        <section class="portofolio section" id="portofolio">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Portofolio</h2>
+                <div class="row">
+                    <div class="portofolio-filter padd-15">
+                        <div class="portofolio-filter-inner">
+                            <button type="button" class="active" data-filter="all">Semua</button>
+                            <button type="button" data-filter="art">Iecho Artwork</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--item-->
+                    <div class="portofolio-item padd-15" data-category="art">
+                        <div class="portofolio-item-inner">
+                            <div class="portofolio-item-thumbnail">
+                                <img src="src/img/portofolio/portofolio-1.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Iecho Artwork</span>
+                            <h3 class="portofolio-item-title">Project Illustration 1</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+                    <!--item-->
+                    <div class="portofolio-item padd-15" data-category="art">
+                        <div class="portofolio-item-inner">
+                            <div class="portofolio-item-thumbnail">
+                                <img src="src/img/portofolio/portofolio-2.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Iecho Artwork</span>
+                            <h3 class="portofolio-item-title">Project Illustration 4</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+                    <!--item-->
+                    <div class="portofolio-item padd-15" data-category="art">
+                        <div class="portofolio-item-inner">
+                            <div class="portofolio-item-thumbnail">
+                                <img src="src/img/portofolio/portofolio-3.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Iecho Artwork</span>
+                            <h3 class="portofolio-item-title">Project Illustration 6</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================== Kontak ======================== -->
+        <section class="kontak section" id="kontak">
+            <div class="container">
+                <!--section title-->
+                <h2 class="section-title padd-15">Kontak</h2>
+                <div class="row">
+                    <div class="kontak-box padd-15">
+                        <div class="kontak-data">
+                            <!--info kontak-->
+                            <div class="kontak-info">
+                                <h3 class="kontak-subtitle">Kirim email</h3>
+                                <span class="kontak-deskripsi">
+                                    <i class="lni lni-user kontak-icon"></i>
+                                    riecho14@outlook.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================== Footer ======================== -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text padd-15">
+                    <p>&copy; Made with ❤️ by Aldo</p>
+                </div>
+            </div>
+        </footer>
+        <!-- ======================== Sun Mode ======================== -->
+        <script>
+            var icon = document.getElementById("icon");
+            icon.onclick = function() {
+                document.body.classList.toggle("sun-theme");
+                if(document.body.classList.contains("sun-theme"))
+                {
+                    icon.src="src/img/mode/moon.png";
+                }
+                else
+                {
+                    icon.src="src/img/mode/sun.png";
+                }
+            }
+        </script>
+    </main>
+
+    <!-- ======================== SWIPER JS ======================== -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+     <!-- ======================== JS ======================== -->
+     <script src="src/js/main.js"></script>
+</body>
+</html>
